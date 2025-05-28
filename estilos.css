@@ -1,0 +1,179 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fffaf2;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado principal */
+header {
+    text-align: center;
+    background-color: #F4E2BA;
+    color: #F07F35;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Impact, sans-serif;
+    font-size: 48px;
+}
+/* Tipografía aplicada a todas las secciones */
+section {
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Títulos de sección */
+section h2 {
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Texto de párrafos */
+section p,
+section ul,
+section table {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* Habilidades */
+#habilidades ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+#habilidades li {
+    background-color: #fff2d6;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#habilidades li:hover {
+    background-color: #F4E2BA;
+}
+
+/* Servicios creativos */
+#servicios ul.cards {
+    list-style: none;
+    padding-left: 0;
+}
+
+#servicios ul.cards li {
+    background-color: #fff2d6;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Tabla de planes */
+#planes table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    box-shadow: 0 0 8px rgba(255, 184, 71, 0.1);
+}
+
+#planes th,
+#planes td {
+    padding: 10px;
+    border: 1px solid #ffe4b5;
+    text-align: left;
+}
+
+#planes th {
+    background-color: #F4E2BA;
+    color: #F07F35;
+}
+
+#planes tr:nth-child(even) {
+    background-color: #ffe8c2;
+}
+
+#planes tbody tr:hover {
+    background-color: #F4E2BA;
+}
+
+/* Formulario */
+#formulario label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#formulario input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #fff3dd;
+    border-radius: 5px;
+}
+
+#formulario input:focus {
+    border-color: #ffb22c;
+    box-shadow: 0 0 5px rgba(210, 166, 105, 0.3);
+    outline: none;
+}
+
+#formulario button {
+    background-color: #F07F35;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#formulario button:hover {
+    background-color: #d4641e;
+}
+
+/* Proyectos */
+#proyectos table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    box-shadow: 0 0 8px rgba(255, 184, 71, 0.1);
+}
+
+#proyectos caption {
+    caption-side: top;
+    font-weight: bold;
+    background-color: #FDF4E2;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+#proyectos th {
+    background-color: #F4E2BA;
+    color: #e6c285;
+    padding: 10px;
+    text-align: left;
+}
+
+#proyectos td {
+    padding: 10px;
+    border-bottom: 1px solid #ffe4b5;
+}
+
+#proyectos tr:nth-child(even) {
+    background-color: #ffe8c2;
+}
+
+#proyectos tbody tr:hover {
+    background-color: #F4E2BA;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #F4E2BA;
+    color: #7c5a3c;
+    font-size: 14px;
+}
